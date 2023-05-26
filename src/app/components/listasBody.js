@@ -1,0 +1,83 @@
+import React from 'react';
+
+import '../../layaouts/style.css';
+
+import imagen1 from '../../images/iconos/patio.png';
+import imagen2 from '../../images/iconos/electrico.png';
+import imagen3 from '../../images/iconos/tubo.png';
+import imagen4 from '../../images/iconos/pintura.png';
+import imagen5 from '../../images/iconos/fierro.png';
+import imagen6 from '../../images/iconos/herramienta.png';
+import imagen7 from '../../images/iconos/cementoSol.png';
+
+const images = [imagen1,imagen2,imagen3,imagen4,imagen5,imagen6]
+
+const bodyList = () => {
+    return (
+        <div style={{display:'flex'}}>
+            <div style={{color : 'black', width : '70%'}}>
+                <div style={{display: 'flex'}}>
+                    <h2 style={{marginLeft :'30px'}}>Categorias</h2>
+                </div>
+                <section className="sectionBody"> {/*SECCION DE 6 IAMGENES*/}
+                    <div style={{display: 'inline-flex', width : '100%'}}> {/*CONTIENE 3 CUADORS */}
+                        <div className="divBody"> {/*CONTIENE 1 CUADORS */}
+                            <div className="divSubBody">
+                                <img className="imgClas" src={imagen1}/>
+                                <h3 className="inconText">HOLA</h3>
+                            </div>
+                        </div>
+                        <div className="divBody"> {/*CONTIENE 1 CUADORS */}
+                            <div className="divSubBody">
+                                <img className="imgClas" src={imagen2}/>
+                                <h3 className="inconText">HOLA</h3>
+                            </div>
+                        </div>
+                        <div className="divBody"> {/*CONTIENE 1 CUADORS */}
+                            <div className="divSubBody">
+                                <img className="imgClas" src={imagen3}/>
+                                <h3 className="inconText">HOLA</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{display: 'inline-flex', width : '100%'}}> {/*CONTIENE 3 CUADORS */}
+                        <div className="divBody"> {/*CONTIENE 1 CUADORS */}
+                            <div className="divSubBody">
+                                <img className="imgClas" src={imagen4}/>
+                                <h3 className="inconText">HOLA</h3>
+                            </div>
+                        </div>
+                        <div className="divBody"> {/*CONTIENE 1 CUADORS */}
+                            <div className="divSubBody">
+                                <img className="imgClas" src={imagen5}/>
+                                <h3 className="inconText">HOLA</h3>
+                            </div>
+                        </div>
+                        <div className="divBody"> {/*CONTIENE 1 CUADORS */}
+                            <div className="divSubBody">
+                                <img className="imgClas" src={imagen6}/>
+                                <h3 className="inconText">HOLA</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div style={{color : 'black', width : '30%'}}>
+                <div style={{display: 'flex'}}>
+                    <h2 style={{marginLeft :'30px'}}>Destacado</h2>
+                </div>
+                <section className="sectionBodyDes"> {/*SECCION DE 6 IAMGENES*/}
+                    <div className="divSubBody">
+                        <img src={imagen7}/>
+                        <h3>CEMENTO SOL</h3>
+                        <a href="https://wa.me/923358202" className="buttonA">Cotizar</a>
+                    </div>
+                </section >
+
+            </div>
+        </div>
+    );
+}
+
+export default bodyList;
