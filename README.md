@@ -1,18 +1,61 @@
-# Getting Started with Create React App
+# Push y/o pull cambios
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Comandos para subir cambios y/o actualizar cambios
 
-## Available Scripts
+## 1ra recomendación
+Antes de hacer push obligatorio hacer un pull.
 
-In the project directory, you can run:
+### `1er Paso`
+En el terminal del VSc( Ctrl +ñ), te ubicas en la ruta del proyecto con 'cd'
 
-### `npm start`
+### `2do Paso`
+Verifica el estado de tu repositorio ejecutando el comando \
+git status\
+Esto te mostrará los cambios realizados en tu proyecto.
 
+### `3er Paso`
+Agrega los cambios al área de preparación (staging) ejecutando el comando\
+git add .\
+Esto agregará todos los archivos modificados y nuevos al área de preparación.
+
+### `4to Paso`
+Realiza una confirmación (commit) de los cambios ejecutando el comando \
+git commit -m "primmer commit"
+
+### `5to Paso`
+Conecta tu repositorio remoto ejecutando el comando \
+git remote add origin https://github.com/YorklinPunk/ferreteria-alpha.git \
+Esto establece la conexión entre tu repositorio local y el repositorio remoto en GitHub.
+
+### `6o Paso`
+Sube tus cambios al repositorio remoto ejecutando el comando \
+git push origin master
+
+
+##Para levantar el proyecto
+### `npm start` p `npm run start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+##Paquetes instalados
+
+├── @testing-library/jest-dom@5.16.5
+├── @testing-library/react@13.4.0
+├── @testing-library/user-event@13.5.0
+├── bootstrap@5.2.3
+├── react-bootstrap@2.7.4
+├── react-dom@18.2.0
+├── react-responsive-carousel@3.2.23
+├── react-router-dom@6.11.2
+├── react-scripts@5.0.1
+├── react-slick@0.29.0
+├── react@18.2.0
+└── web-vitals@2.1.4
+
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
 
 ### `npm test`
 
