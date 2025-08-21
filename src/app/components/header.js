@@ -10,7 +10,7 @@ import MenuItem from './menuItem';
                     ];
     return (
     <header className='headerGeneral'>
-        <h1 style={{color:'white'}}>Este es el encabezado</h1>
+        <h1 style={{color:'white'}}>Ferretería Alpha</h1>
 
         <nav className='subHeader'>
             <ul className="menu">

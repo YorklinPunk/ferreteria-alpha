@@ -16,7 +16,7 @@ const Blog = () => {
                     <div className="col">
                         <img className="imgClas" src={imagen1}/>
                         <div className="subTitulo">
-                            <span>Tipos de tejas</span>
+                            <h3>Tipos de tejas</h3>
                         </div>
                         <div className="textBlog">
                             <p>Las tejas son elementos clave en la construcción de techos y cubiertas. No solo cumplen una función práctica al proteger la estructura de los elementos</p>
@@ -25,7 +25,7 @@ const Blog = () => {
                     <div className="col">
                         <img className="imgClas" src={imagen2}/>
                         <div className="subTitulo">
-                            <span>Diferencias entre el hierro y acero</span>
+                            <h3>Diferencias entre el hierro y acero</h3>
                         </div>
                         <div className="textBlog">
                             <p>El hierro y el acero son dos materiales ampliamente utilizados en la industria de la construcción y la fabricación. Aunque a menudo se utilizan indistintamente</p>
@@ -34,7 +34,7 @@ const Blog = () => {
                     <div className="col">
                         <img className="imgClas" src={imagen3}/>
                         <div className="subTitulo">
-                            <span>¿Qué es el sistema DryWall?</span>
+                            <h3>¿Qué es el sistema DryWall?</h3>
                         </div>
                         <div className="textBlog">
                             <p>El sistema Drywall, también conocido como sistema liviano o construcción en seco, es una técnica de construcción ampliamente utilizada en todo el mundo. Consiste en</p>
